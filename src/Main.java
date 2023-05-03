@@ -16,7 +16,7 @@ import java.util.HashSet;
 import java.util.Scanner;
 
 public class Main {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         HashSet<String> LEGAL_OPERATION = new HashSet<>(Arrays.asList("+", "-", "*", "/"));
         String eq_str;
         Scanner input = new Scanner(System.in);
