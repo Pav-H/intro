@@ -38,9 +38,9 @@ public class Main {
                     throw new IOException();
                 } else {
                     Equation eq = new Equation();
-                    eq.setA(Integer.parseInt(eq_arr[0]));
-                    eq.setB(Integer.parseInt(eq_arr[2]));
-                    eq.setOperation(eq_arr[1]);
+                    eq.setA(a);
+                    eq.setB(b);
+                    eq.setOperation(operator);
                     System.out.println(eq.doEq());
                 }
             }
